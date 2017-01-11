@@ -42,6 +42,9 @@ gem 'figaro'
 #Fog for S3 image uploads with Carrierwave
 gem 'fog'
 
+#MiniMagick for image resizing on upload
+gem 'mini_magick', '~> 4.3.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
