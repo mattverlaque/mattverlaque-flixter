@@ -33,6 +33,15 @@ gem 'simple_form'
 #Devise
 gem 'devise'
 
+#Carrierwave for image uploading
+gem 'carrierwave', '~> 1.0'
+
+#Figaro for credentials
+gem 'figaro'
+
+#Fog for S3 image uploads with Carrierwave
+gem 'fog'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
