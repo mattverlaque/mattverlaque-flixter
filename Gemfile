@@ -40,7 +40,10 @@ gem 'carrierwave', '~> 1.0'
 gem 'figaro'
 
 #Fog for S3 image uploads with Carrierwave
-gem 'fog'
+#gem 'fog'
+
+# Carrierwave-aws for image uploads
+gem 'carrierwave-aws'
 
 #MiniMagick for image resizing on upload
 gem 'mini_magick', '~> 4.3.1'
